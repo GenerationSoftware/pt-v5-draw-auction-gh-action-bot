@@ -1,7 +1,7 @@
 name: CronJob - Draw Auction Bot - Ethereum Mainnet
 on:
   schedule:
-    - cron: "50 * * * *" # ie. 4:50pm, 5:50pm ... etc.
+    - cron: "20,50 * * * *" # ie. 4:50pm, 5:50pm ... etc.
   push:
 env:
   CHAIN_ID: 1
